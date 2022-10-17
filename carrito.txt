@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1665923941221,
+    "productos": [
+      {
+        "nombre": "Producto3",
+        "descripcion": "descripcion Producto3",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665922104141,
+        "id": 3
+      }
+    ]
+  },
+  {
+    "timestamp": 1665926316154,
+    "productos": [
+      {
+        "nombre": "producto nuevo2",
+        "descripcion": "descripcion producto nuevo2",
+        "codigo": "99999",
+        "foto": "foto",
+        "precio": 9999999,
+        "stock": 99,
+        "id": 2,
+        "timestamp": 1665926541204
+      },
+      {
+        "nombre": "Producto3",
+        "descripcion": "descripcion Producto3",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665922104141,
+        "id": 3
+      },
+      {
+        "nombre": "Producto3",
+        "descripcion": "descripcion Producto3",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665922177074,
+        "id": 4
+      }
+    ],
+    "id": 2
+  },
+  {
+    "timestamp": 1665923941221,
+    "productos": [
+      {
+        "nombre": "Producto3",
+        "descripcion": "descripcion Producto3",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665922177074,
+        "id": 4
+      }
+    ],
+    "id": 3
+  },
+  {
+    "timestamp": 1665960536638,
+    "productos": [
+      {
+        "nombre": "producto nuevo2",
+        "descripcion": "descripcion producto nuevo2",
+        "codigo": "99999",
+        "foto": "foto",
+        "precio": 9999999,
+        "stock": 99,
+        "id": 2,
+        "timestamp": 1665926541204
+      },
+      {
+        "nombre": "Producto3",
+        "descripcion": "descripcion Producto3",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665922104141,
+        "id": 3
+      }
+    ],
+    "id": 4
+  },
+  {
+    "timestamp": 1665961951080,
+    "productos": [
+      {
+        "nombre": "Producto3",
+        "descripcion": "descripcion Producto3",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665922177074,
+        "id": 4
+      },
+      {
+        "nombre": "ProductoX",
+        "descripcion": "descripcion ProductoX",
+        "codigo": "21242",
+        "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+        "precio": 123.4,
+        "stock": 2,
+        "timestamp": 1665926608463,
+        "id": 5
+      }
+    ],
+    "id": 5
+  }
+]
