@@ -1,0 +1,155 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Proyecto Final",
+		"_postman_id": "fd32038b-7790-1601-00bd-c1572e5d6132",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Productos: obtener todos los productos",
+			"request": {
+				"url": "localhost:8080/api/productos/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Productos: crear nuevo producto",
+			"request": {
+				"url": "localhost:8080/api/productos",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "rol",
+						"value": "admin",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"nombre\": \"producto nuevo\",\n    \"descripcion\": \"descripcion producto nuevo\",\n    \"codigo\":  \"99999\",\n    \"foto\": \"foto\",\n    \"precio\": 9999999,\n    \"stock\": 99\n }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Productos: obtener producto por id",
+			"request": {
+				"url": "localhost:8080/api/productos/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Productos: actualizar producto",
+			"request": {
+				"url": "localhost:8080/api/productos/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "rol",
+						"value": "admin",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n    \"nombre\": \"ProductoXa\",\n    \"descripcion\": \"descripcion ProductoX\",\n    \"codigo\":  \"212422\",\n    \"foto\": \"https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png\",\n    \"precio\": 123.42,\n    \"stock\": 2\n }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Productos: eliminar producto",
+			"request": {
+				"url": "http://localhost:8080/api/productos/1",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "rol",
+						"value": "admin",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Carritos: Nuevo Carrito",
+			"request": {
+				"url": "localhost:8080/api/carritos/",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Carritos: Obtener los productos de un carrito",
+			"request": {
+				"url": "localhost:8080/api/carritos/1/productos",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Carritos: Agregar producto a carrito",
+			"request": {
+				"url": "localhost:8080/api/carritos/1/productos/2",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Carritos: Eliminar producto del carrito",
+			"request": {
+				"url": "localhost:8080/api/carritos/4/productos/29",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Carritos: Eliminar carrito",
+			"request": {
+				"url": "localhost:8080/api/carritos/2/productos/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
